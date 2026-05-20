@@ -10,7 +10,7 @@
 // let k1 = 100.1n;
 // normal number and bigint cannot be added
 // let k1 = 100.1n;
-// let l1 = 102.1n;
+// let l1 = 102;
 let a1 = 100n;
 let b1 = 50n;
 console.log(a1 + b1);
