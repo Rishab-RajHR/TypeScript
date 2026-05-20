@@ -3,9 +3,14 @@
 //     throw new Error(message);
 // }
 // throwError("404 Error")
-function infinityLoop() {
-    while (true) {
-        console.log("Running...");
-    }
+// function infinityLoop():never {
+//     while(true){
+//         console.log("Running...");
+//     }
+// }
+// infinityLoop()
+function greet() {
+    console.log("Hello");
 }
-infinityLoop();
+const result1 = greet();
+console.log(result1);

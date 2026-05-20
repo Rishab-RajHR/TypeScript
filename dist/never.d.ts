@@ -1,1 +1,2 @@
-declare function infinityLoop(): never;
+declare function greet(): void;
+declare const result1: void;

@@ -3,9 +3,19 @@
 // }
 // throwError("404 Error")
 
-function infinityLoop():never {
-    while(true){
-        console.log("Running...");
-    }
+
+
+// function infinityLoop():never {
+//     while(true){
+//         console.log("Running...");
+//     }
+// }
+// infinityLoop()
+
+
+
+function greet():void{
+    console.log("Hello");
 }
-infinityLoop()
+const result1 = greet();
+console.log(result1);
