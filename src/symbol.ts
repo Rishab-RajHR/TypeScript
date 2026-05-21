@@ -21,3 +21,20 @@
 
 
 let token : symbol = Symbol("token")
+
+
+// Through string
+let obj = {
+   id:1
+}
+
+
+// Through Symbol
+const id = Symbol("id");
+let opj = {
+   [id]:1
+}
+
+
+// console.log("ID: "+ Symbol()); => This is wrong in Symbol
+// console.log(Symbol("id").toString()); => This is the way to define the Symbol
