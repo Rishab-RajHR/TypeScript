@@ -19,9 +19,37 @@ console.log(user);
 
 
 
-// Array with different data type
+
+// Array with different data type => number, string, boolean
 let prices: number[] = [100,200,300]
 // prices.push("Harman") => cannot push string to number
 // prices.push(111) => Yes it is easily pushed no error
 let cities: string[] = ["Delhi","Mumbai"]
 let statusCode: boolean[] = [true,false,true]
+
+
+
+
+//  Common Array Method => Push() / Pop()
+
+let fruits: string[] = ["Apple"]
+fruits.push("Mango")
+fruits.pop()
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits.length);
+
+
+
+
+// MultiType Array  => Union Array combination of different data type
+
+let data5: (string | number)[] = [
+     "Mohit",
+     25,
+     "Delhi"
+]
+data5.push(22)
+
+
+
