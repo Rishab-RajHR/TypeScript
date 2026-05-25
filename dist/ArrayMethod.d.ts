@@ -1,2 +1,2 @@
 declare let number: number[];
-declare let double: number[];
+declare let result2: number[];
