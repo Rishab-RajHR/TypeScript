@@ -6,6 +6,8 @@
 // let user5 : [string,number]=["Alex",25]
 // console.log(user5);
 
+
+
 let number4: number[]=[1,2,3,4,5]; // Array
 let employees: [string,number,boolean] = ["Alex",26000,true] // Tuple
 console.log(employees[0]);
@@ -17,3 +19,12 @@ let [username8,salary7,isLogin5] = employees;
 console.log(username8);
 console.log(salary7);
 console.log(isLogin5);
+
+
+
+// Tuple used in function
+
+function getUser(): [string,number]{
+     return["Alex",25]
+}
+console.log(getUser());

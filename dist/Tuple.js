@@ -12,3 +12,8 @@ let [username8, salary7, isLogin5] = employees;
 console.log(username8);
 console.log(salary7);
 console.log(isLogin5);
+// Tuple used in function
+function getUser() {
+    return ["Alex", 25];
+}
+console.log(getUser());
