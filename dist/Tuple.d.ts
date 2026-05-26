@@ -1,1 +1,3 @@
-declare let user5: [string, number];
+declare let number4: number[];
+declare let employees: [string, number, boolean];
+declare let username8: string, salary7: number, isLogin5: boolean;
