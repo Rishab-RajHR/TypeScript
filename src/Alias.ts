@@ -44,8 +44,29 @@
 // console.log(add9(10,5));
 
 
+// Union
+// type ID = string | number;
+// let userId:ID = 101;
+// userId = 'MOHIT101'
+// console.log(userId);
 
-type ID = string | number;
-let userId:ID = 101;
-userId = 'MOHIT101'
-console.log(userId);
+
+
+// Intersection
+type Person = {
+    username:string
+}
+type Emp = {
+    salary:number
+}
+
+type Staff = Person & Emp
+
+let worker:Staff = {
+     username:"Alex",
+     salary:5000
+}
+console.log(worker)
+
+
+
