@@ -1,6 +1,5 @@
 "use strict";
 // let username: string = "Alex"
-let add9 = (x1, y2) => {
-    return x1 + y2;
-};
-console.log(add9(10, 5));
+let userId = 101;
+userId = 'MOHIT101';
+console.log(userId);

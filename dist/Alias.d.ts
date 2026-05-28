@@ -1,2 +1,2 @@
-type AddFunction = (a: number, b: number) => number;
-declare let add9: AddFunction;
+type ID = string | number;
+declare let userId: ID;

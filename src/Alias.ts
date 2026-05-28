@@ -33,12 +33,19 @@
 
 
 
-type AddFunction = (
-    a:number,
-    b:number
- ) => number;
+// type AddFunction = (
+//     a:number,
+//     b:number
+//  ) => number;
 
-let add9: AddFunction = (x1,y2)=>{
-    return x1+y2
-}
-console.log(add9(10,5));
+// let add9: AddFunction = (x1,y2)=>{
+//     return x1+y2
+// }
+// console.log(add9(10,5));
+
+
+
+type ID = string | number;
+let userId:ID = 101;
+userId = 'MOHIT101'
+console.log(userId);
