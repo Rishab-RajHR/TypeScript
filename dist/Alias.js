@@ -1,6 +1,6 @@
 "use strict";
 // let username: string = "Alex"
-let myName = 'Alex';
-console.log(myName);
-let userAge = 27;
-console.log(userAge);
+let add9 = (x1, y2) => {
+    return x1 + y2;
+};
+console.log(add9(10, 5));

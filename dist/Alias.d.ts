@@ -1,4 +1,2 @@
-type Username1 = string;
-type Age = number;
-declare let myName: Username1;
-declare let userAge: Age;
+type AddFunction = (a: number, b: number) => number;
+declare let add9: AddFunction;
