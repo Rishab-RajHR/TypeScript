@@ -8,4 +8,14 @@ console.log(id4);
 function printId(id) {
     console.log(id);
 }
-printId(101);
+printId(101); // It can be string or number
+// Function type narrowing (to avoid error)
+function printData(data) {
+    if (typeof data === "string") {
+        console.log(data.toUpperCase());
+    }
+    else {
+        console.log(data);
+    }
+}
+printData("alex");

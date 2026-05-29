@@ -11,4 +11,19 @@ function printId(
 ){
     console.log(id);
 }
-printId(101)
+printId(101) // It can be string or number
+
+
+
+
+// Function type narrowing (to avoid error)
+function printData(
+    data: string | number
+) {
+    if(typeof data === "string"){
+        console.log(data.toUpperCase());
+    } else {
+        console.log(data);
+    }
+}
+printData("alex")
