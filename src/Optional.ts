@@ -1,11 +1,11 @@
 // parameter ?: type
 
-function greet(
+function greet88(
    name:string
 ){
     console.log(name);
 }
-greet("Alex");
+greet88("Alex");
 
 
 // With the help of optional parameter we can make the parameter optional

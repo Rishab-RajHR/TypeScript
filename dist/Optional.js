@@ -1,9 +1,9 @@
 "use strict";
 // parameter ?: type
-function greet(name) {
+function greet88(name) {
     console.log(name);
 }
-greet("Alex");
+greet88("Alex");
 // With the help of optional parameter we can make the parameter optional
 function greetNumber8(name) {
     console.log(name);
