@@ -1,6 +1,5 @@
 declare function add4(a: number, b: number): void;
-declare function add5(a: number, b: number): number;
-declare let result6: number;
+declare let result6: void;
 declare function test(): number;
 declare let result4: number;
 declare function greetNumber3(username?: string): void;
