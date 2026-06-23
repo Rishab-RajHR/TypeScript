@@ -1,2 +1,2 @@
-type UserRole = "admin";
-declare let role: UserRole;
+type diceValue = 1 | 2 | 3 | 4 | 5 | 6;
+declare let dice: diceValue;

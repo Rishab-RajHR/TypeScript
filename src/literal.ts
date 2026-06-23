@@ -5,8 +5,26 @@
 // console.log(role);
 
 
-type UserRole = "admin";
 
-let role: UserRole = "admin";
+ 
+// type UserRole = "admin" | "user" | "guest";
 
-console.log(role);
+// let role: UserRole = "admin";
+
+// console.log(role);
+
+
+
+// Number with literal type
+
+
+type diceValue = 
+   |1
+   |2
+   |3
+   |4
+   |5
+   |6
+
+let dice: diceValue = 4;
+console.log(dice);

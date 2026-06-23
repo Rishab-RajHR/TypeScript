@@ -1,4 +1,4 @@
 "use strict";
 // let role: string;
-let role = "admin";
-console.log(role);
+let dice = 4;
+console.log(dice);
