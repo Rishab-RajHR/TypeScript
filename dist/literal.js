@@ -1,4 +1,4 @@
 "use strict";
-let role;
-role = "Alex";
+// let role: string;
+let role = "admin";
 console.log(role);

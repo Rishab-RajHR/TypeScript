@@ -1,1 +1,2 @@
-declare let role: string;
+type UserRole = "admin";
+declare let role: UserRole;
