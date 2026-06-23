@@ -28,3 +28,11 @@ type diceValue =
 
 let dice: diceValue = 4;
 console.log(dice);
+
+
+
+// Boolean value
+
+let isVeryfied : true;
+isVeryfied = true;
+console.log(isVeryfied);
