@@ -36,3 +36,14 @@ console.log(dice);
 let isVeryfied : true;
 isVeryfied = true;
 console.log(isVeryfied);
+
+
+
+// Literals with the function 
+
+function setTheme3(
+   theme: "light" | "dark"
+){
+    console.log(theme);
+}
+setTheme3("dark");

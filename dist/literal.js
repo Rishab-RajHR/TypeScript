@@ -6,3 +6,8 @@ console.log(dice);
 let isVeryfied;
 isVeryfied = true;
 console.log(isVeryfied);
+// Literals with the function 
+function setTheme3(theme) {
+    console.log(theme);
+}
+setTheme3("dark");
