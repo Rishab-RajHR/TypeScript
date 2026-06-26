@@ -96,14 +96,14 @@
 
 // Through interface
 
-interface HasId{
-    id: number
-}
-function printId<
-   T extends HasId>(obj:T){
-      console.log(obj.id);
-   }
-printId({
-    id:101,
-    name:"Alex"
-})
+// interface HasId{
+//     id: number
+// }
+// function printId<
+//    T extends HasId>(obj:T){
+//       console.log(obj.id);
+//    }
+// printId({
+//     id:101,
+//     name:"Alex"
+// })
